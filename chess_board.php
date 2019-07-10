@@ -7,6 +7,7 @@
 <body>
 	<?php
 	echo "<table>";
+ 	echo "<h1>  Доска </h1>";
 
 	  for($a=1; $a<6; $a++) {
 	  	 echo "<tr>";
