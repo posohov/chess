@@ -6,6 +6,8 @@
 </head>
 <body>
 	<?php
+	 
+
 	echo "<table>";
  	echo "<h1>  Доска </h1>";
 
@@ -40,7 +42,9 @@
 
 	 }
 	 echo "</table>";
-
+	 setcookie("test","Hello",time()+3600);
+// При следующем запросе скрипта выводит 'Hello':
+echo $_COOKIE['test'];
 	?>
 	
 </body>
